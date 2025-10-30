@@ -1,0 +1,14 @@
+# Core dependencies
+milvus-lite
+pymilvus>=2.4.0
+pillow
+python-dotenv
+
+# OpenAI CLIP model (for image embeddings)
+git+https://github.com/openai/CLIP.git
+
+# LangChain ecosystem
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-milvus>=0.1.0
